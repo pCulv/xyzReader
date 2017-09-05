@@ -4,7 +4,7 @@
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:transitionName="@string/transition_string">
 
     <com.example.xyzreader.ui.ObservableScrollView
         android:id="@+id/scrollview"

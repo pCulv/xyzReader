@@ -140,6 +140,8 @@ public class ArticleListActivity extends AppCompatActivity implements
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
         private Cursor mCursor;
 
+
+
         public Adapter(Cursor cursor) {
             mCursor = cursor;
         }
@@ -163,6 +165,7 @@ public class ArticleListActivity extends AppCompatActivity implements
             });
             return vh;
         }
+
 
         private Date parsePublishedDate() {
             try {
